@@ -1,0 +1,50 @@
+.box {
+    height: 193px;
+    width: 193px;
+}
+
+.box .rectangle {
+    background-color: #c9252c;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 193px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 193px;
+}
+
+.boxyellow {
+    height: 193px;
+    width: 193px;
+}
+
+.boxyellow .rectangleyellow {
+    background-color: #ffbc00;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 193px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 193px;
+}
+
+.label {
+    height: 24px;
+    width: 84px;
+}
+
+.label .text-wrapper {
+    color: #ffffff;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    height: 24px;
+    left: 0;
+    letter-spacing: 0.13px;
+    line-height: normal;
+    position: fixed;
+    top: 0;
+    white-space: nowrap;
+}
