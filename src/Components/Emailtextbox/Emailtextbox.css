@@ -1,0 +1,40 @@
+.input-layer {
+    align-items: center;
+    background-color: var(--primarywhite);
+    display: flex;
+    gap: 8px;
+    padding: 10px 14px;
+    position: relative;
+    height: 44px;
+    width: 320px;
+}
+
+.input-layer .input {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 8px;
+    position: relative;
+}
+
+.input-layer .heroicons-outline {
+    height: 20px !important;
+    position: relative !important;
+    width: 20px !important;
+}
+
+.input-layer .text-wrapper {
+    color: var(--grey-400);
+    flex: 1;
+    font-family: var(--body-md-regular-font-family);
+    font-size: var(--body-md-regular-font-size);
+    font-style: var(--body-md-regular-font-style);
+    font-weight: var(--body-md-regular-font-weight);
+    letter-spacing: var(--body-md-regular-letter-spacing);
+    line-height: var(--body-md-regular-line-height);
+    margin-top: -1px;
+    position: relative;
+    height:24px;
+    width: 264px;
+}

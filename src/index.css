@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .mani1{
     margin-top: 10;
     text-underline-position: auto;
@@ -73,7 +74,7 @@ code {
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
-  background-color: ;
+  
 
 }
 

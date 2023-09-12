@@ -11,11 +11,35 @@ import Textbox from "./Components/textboxevent";
 import { BrowserRouter } from "react-router-dom";
 import { Home } from "./Components/Home";
 import Pagination from "./Components/Pagination";
+import { Emailtextbox } from "./Components/Emailtextbox/Emailtextbox";
+import { Mobilenumber } from "./Components/Mobilenumber/Mobilenumber";
+import Ipvs from "./Components/Ipvs";
+import button from "./Components/button";
+import Regex from "./Components/Regex";
+import Button1 from "./Components/button";
+import Loading from "./Components/Loading";
+import { QueryClient, QueryClientProvider } from "react-query";
+
+const queryClient = new QueryClient(
+  {
+  defaultOptions: {
+    queries:{
+      cacheTime : 10000,
+    }
+  },
+}
+);
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-  <BrowserRouter>
+  <QueryClientProvider client={queryClient}>
+    <Loading/>
+ 
+  {/* <BrowserRouter>
   <Dropdown/>
     <CheckBox/>
     <Datepicker/>
@@ -23,8 +47,8 @@ root.render(
     <App/>
     
   <Pagination/>
-    </BrowserRouter>
-  
+    </BrowserRouter> */}
+    </QueryClientProvider>
   </React.StrictMode>
 );
 
